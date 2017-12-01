@@ -4,6 +4,14 @@ Promise based resource loader for JS and CSS
 Usage Examples:
 
 ```javascript
+rLoad.js('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js').then(function (uri) {
+    console.log('Loaded JS:');
+    console.log(uri);
+}).catch(function (err) {
+    console.log('Failed JS:');
+    console.log(err);
+});
+
 rLoad.css('//www.w3schools.com/w3css/4/w3.css', {media: 'all'}).then(function (uri) {
     console.log('Loaded CSS:');
     console.log(uri);
