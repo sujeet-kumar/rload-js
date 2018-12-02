@@ -2,7 +2,7 @@
  * Promise based resource loader for JS and CSS
  * 
  * @author Sujeet Kumar <sujeetkv90@gmail.com>
- * @link https://github.com/sujeet-kumar/rload-js
+ * @link https://github.com/sujeetkv/rload-js
  */
 (function (context) {
     
